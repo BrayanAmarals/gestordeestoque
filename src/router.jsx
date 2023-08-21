@@ -6,7 +6,7 @@ import AddItem from "./pages/addItem/AddItem";
 
 const router = createBrowserRouter([
   {
-    path: "/gestor-de-estoque",
+    path: "/gestordeestoque",
     index: true,
     element: <Dashboard />,
   },
