@@ -22,9 +22,9 @@ export default function Dashboard() {
   const items2 = [...actualItems];
 
   let total = 0;
-  items2.forEach((element) => {
-    +element.quantity;
-    total += element.quantity;
+  items2.forEach(({ quantity }) => {
+    +quantity;
+    total += +quantity;
   });
 
   let endingItems = items2.filter((element) => {

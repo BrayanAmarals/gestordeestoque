@@ -8,7 +8,10 @@ import brayanLogo from "../src/assets/brayanLogo.png";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    <a href="http://example.com/" target="_blank">
+    <a
+      href="https://brayanass.github.io/professional-portfolio/"
+      target="_blank"
+    >
       <img src={brayanLogo} className="brayanLogo" alt="" />
     </a>
   </React.StrictMode>
