@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.addItemsButton {
+  background-color: #8f6dc1;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.recentItems {
+  width: 78rem;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 2rem 0 4rem 0;
+  align-items: center;
+}
+
+.listContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.recentItems {
+  display: flex;
+  justify-content: center;
+  background-color: #3f3f42;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.listTitle1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin: 10px 0;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.titleId {
+  width: 20%;
+  color: #c4c4c488;
+}
+
+.titleItem {
+  width: 50%;
+  color: #c4c4c488;
+}
+
+.titleInStock {
+  width: 20%;
+  color: #c4c4c488;
+}
+
+.titleActions {
+  width: 20%;
+  color: #c4c4c488;
+}
+
+.itemCard {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+  background-color: #242529;
+  padding: 1.5rem;
+  border-radius: 20px;
+  align-items: center;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.itemId {
+  width: 20%;
+}
+
+.itemName {
+  width: 50%;
+}
+
+.itemQuantity {
+  width: 20%;
+}
+
+.itemButtons {
+  width: 20%;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+}

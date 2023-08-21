@@ -1,0 +1,102 @@
+.cardsSection {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin-top: 4rem;
+}
+
+.listContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.list {
+  background-color: 0.3f3f42;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.recentItems {
+  width: 40rem;
+  background-color: #3f3f42;
+  border-radius: 15px;
+}
+
+.underItems {
+  width: 40rem;
+  background-color: #3f3f42;
+  border-radius: 15px;
+}
+
+h2 {
+  padding: 2rem 0 0 2rem;
+}
+
+.title1 {
+  width: 80%;
+}
+.title2 {
+  width: 70%;
+}
+
+.listTitle1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  font-weight: 200;
+  width: auto;
+  justify-content: center;
+}
+
+.listTitle2 {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.itemCard {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  background-color: #242529;
+  padding: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  width: auto;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.secondPart {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.nameItem1 {
+  font-size: 18px;
+  width: 90%;
+}
+
+.titles {
+  padding: 2rem 0 0.5rem 3rem;
+}
+
+.nameItem2 {
+  font-size: 18px;
+  width: 80%;
+}
+
+.icon {
+  font-size: 20px;
+}

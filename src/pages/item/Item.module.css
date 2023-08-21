@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondaryContainer {
+  width: 70rem;
+  background-color: #3f3f42;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  border-radius: 20px;
+  gap: 3rem;
+  border-left: 1rem #b5862a solid;
+  margin-top: 4rem;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexCollum {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.divButtons {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.buttons {
+  background-color: #b5862a;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  align-items: start;
+}
+
+.editValueInput {
+  display: flex;
+  color: white;
+  background-color: #242529;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 20rem;
+  margin-bottom: 20px;
+}
+
+.editValueButton {
+  width: 10rem;
+  background-color: #8f6dc1;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.alignEnd {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.description {
+  max-width: 35rem;
+  word-break: break-all;
+}
